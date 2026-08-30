@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>by·new</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/c96716c2ae.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--header-->
+        <header class="header">
+            <div class="header-logo">
+                <img src="logo.png" alt="img-logo">
+            </div>
+            <div class="header-links">
+                <a href="">CONTRIBUYE</a>
+                <a href="">ORGANIZACIONES</a>
+                <a href="">NOSOTROS</a>
+            </div>
+            <div class="icono-perfil">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </header>
+
+        <!--hero-->
+        <div class="hero">
+            <div id="carrusel" class="carousel slides" data-bs-ride="carousel">
+                <!--elementos del carrusel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="hero1.png" class="d-block w-100" alt="img-principal1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hero2.png" class="d-block w-100" alt="img-principal2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hero3.png" class="d-block w-100" alt="img-principal3">
+                    </div>
+                </div>
+                <!--botones del carrusel-->
+                    <!--boton izquierda-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev"> 
+                    <!--data-bs-target= indica q esta conectado el carrusel con los botones por medio del id
+                        data-bs-slide= define la direccion del movimiento-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                    <!--boton derecha-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!--estadisticas-->
+        <div class="estadisticas">
+            <div class="dato">
+                <p class="cantidad">12.4K</p>
+                <p class="descripcion-dato">PRENDAS RECUPERADAS</p>
+            </div>
+            <div class="dato">
+                <p class="cantidad">780</p>
+                <p class="descripcion-dato">FAMILIAS APOYADAS</p>
+            </div>
+            <div class="dato">
+                <p class="cantidad">24</p>
+                <p class="descripcion-dato">ORGANIZACIONES ALIADAS</p>
+            </div>
+        </div>
+
+        <div class="mensaje-estadistica">
+            <div class="descripcion-mensaje">
+                <p>Cada cifra representa una prenda que encontró un nuevo destino y una historia que puede continuar.</p>
+            </div>
+            <div class="enlace-mensaje">
+                <a href="">Conoce nuestro impacto</a>
+            </div>
+        </div>
+
+        <!--opciones de cuidado-->
+        <div class="opciones">
+            <div class="opcion">
+                <img src="donar.png" alt="img-donar" class="img-opcion">
+                <h2>DO<br>NAR</h2>
+            </div>
+            <div class="opcion">
+                <img src="reutilizar.png" alt="img-reutilizar" class="img-opcion">
+                <h2>REU<br>TILI<br>ZAR</h2>
+            </div>
+            <div class="opcion">
+                <img src="reciclar.png" alt="img-reciclar" class="img-opcion">
+                <h2>RECI<br>CLAR</h2>
+            </div>
+        </div>
+
+        <!--informacion BeNew-->
+        <div class="informacion">
+            <div class="texto-informacion">
+                <p class="nosotros-informacion">
+                    En <b>by·new</b> ayudamos a darle un nuevo destino a la ropa que ya no utilizas. Conectamos personas con organizaciones y centros especializados para que cada prenda pueda ser donada, reutilizada o reciclada según su estado.
+                </p>
+                <div class="enlaces-informcion">
+                    <a href="" class="enlace">QUIENES SOMOS?</a>
+                    <a href="" class="enlace">MISION</a>
+                </div>
+            </div>
+            <div class="img-informacion">
+                <img src="informacion.png" alt="frase-img">
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="logo-footer">
+                <img src="logo.png" alt="img-logo">
+            </div>
+            <div class="opciones-footer">
+                <a href="">DONAR</a>
+                <a href="">REUTILIZAR</a>
+                <a href="">RECICLAR</a>
+                <a href="">ORGANIZACIONES</a>
+                <a href="">NOSOTROS</a>
+            </div>
+            <div class="redes-footer">
+                <a href="">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>
