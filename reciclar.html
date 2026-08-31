@@ -31,5 +31,84 @@
                 <i class="fa-regular fa-user"></i>
             </div>
         </header>
+
+        <div class="titulo-donacion">
+            <h1>RECICLA TU PRENDA</h1>
+        </div>
+
+        <div class="advertencia-donacion">
+            <h5 class="titulo-condiciones">PRENDA ROTA O DESGASTADA?</h5>
+            <div class="lista-condiciones">
+                <p>Esta rota</p>
+                <span>•</span>
+                <p>La tela esta muy desgastada</p>
+            </div>
+            <div class="alternativas-condiciones">
+                <p>Si todavia esta en buen estado, puedes optar por mejor donarla o reutilizarla.</p>
+                <div class="botones-alternativas">
+                    <a href="donar.html">
+                        <button>DONAR</button>
+                    </a>
+                    <a href="reutilizar.html">
+                        <button>REUTILIZAR</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <form action="" class="grupo-formulario-reciclar">
+            <div class="fila-form-reciclar">
+                <div class="grupo-formulario-reciclar">
+                    <h5>CUENTANOS SOBRE LA PRENDA</h5>
+                    <label for="categoria_prenda-reciclar" class="nombre-prenda-reciclar">CATEGORÍA</label>
+                    <select id="categoria_prenda-reciclar" class="form-select" required>
+                        <option value="" selected></option>
+                        <option value="camisa">Camisa</option>
+                        <option value="blusa">Blusa</option>
+                        <option value="sudadera">Sudadera</option>
+                        <option value="sueter">Sueter</option>
+                        <option value="chamarra">Chamarra</option>
+                        <option value="pantalon">Pantalon</option>
+                        <option value="short">Short</option>
+                        <option value="falda">Falda</option>
+                        <option value="vestido">Vestido</option>
+                    </select>
+                </div>
+                <div class="grupo-formulario-reciclar">
+                    <label for="categoria_material" class="material-prenda">MATERIAL</label>
+                    <select id="categoria_material" class="form-select" required>
+                        <option value="" selected></option>
+                        <option value="amarillo">Amarillo</option>
+                        <option value="azul">Azul</option>
+                        <option value="verde">Verde</option>
+                        <option value="rojo">Rojo</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="fila-form-reciclar">
+                <div class="grupo-formulario-reciclar">
+                    <p class="condicion-apartado">CONDICION</p>
+                    <div class="condicion">
+                        <p>Rota</p>
+                        <p>Desgastada</p>
+                    </div>
+                </div>
+                <div class="grupo-formulario-reciclar">
+                    <p class="destino-apartado-reciclar">RECOLECCIÓN</p>
+                    <div class="opciones-destino-reciclar">
+                        <button>LLevar a un centro</button>
+                        <button>Solicitar recoleccion</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <button class="boton-enviar-reciclar">
+            ENVIAR PRENDAS
+        </button>
+        <div class="icono-agregar-reciclar">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+    
     </body>
 </html>
