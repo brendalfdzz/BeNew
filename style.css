@@ -345,7 +345,6 @@ header {
     flex-direction: column;
     align-items:flex-end;
     padding-right: 25px;
-
 }
 
 .redes-footer {
@@ -369,4 +368,261 @@ header {
     font-family: 'Julius Sans One', sans-serif; 
     padding-top: 7px;
     text-decoration: none;
+}
+
+.redes-footer a:hover {
+    color: #483333;
+    font-size: 22px;
+}
+
+.redes-footer a:active{
+    transform: scale(0.95);
+}
+.opciones-footer a:hover {
+    color: #483333;
+    font-size: 15px;
+}
+
+.opciones-footer a:active{
+    transform: scale(0.95);
+}
+
+
+/*DONAR*/
+.titulo-donacion {
+    background-color: #e1ddd6;
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.titulo-donacion h1 {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #6b6565;
+}
+
+.advertencia-donacion {
+    width: 100%;
+    background-color: #d6cd92;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.titulo-condiciones {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 25px;
+    color: #5e5858;
+}
+
+.lista-condiciones ul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-left: 65px; 
+    color: #f5f5f5;                                 
+}
+
+.alternativas-condiciones {
+    display:flex;
+    justify-content: flex-start;
+    gap: 70px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 65px;
+}
+
+.alternativas-condiciones p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #736f57;
+    margin: 0;
+    padding-right: 90px;
+}
+
+.button-alternativas {
+    display: flex;
+    gap: 30px;
+}
+
+.button-alternativas button {
+    background-color: #eadfdb;
+    color: #736f57;
+    font-family: 'Raleway', sans-serif;;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 110px;
+    height: 32px;
+}
+
+.button-alternativas button:hover {
+    background-color: transparent;
+    border: 2px solid #736f57;
+    font-size: 17px;
+}
+
+.button-alternativas button:active {
+    transform: scale(0.95);
+}
+
+.formulario-donacion {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid #817b65;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.fila-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding-bottom: 25px;
+}
+
+.grupo-formulario {
+    width: 100%;
+}
+
+.nombre-prenda,
+.color-prenda,
+.talla-apartado,
+.destino-apartado {
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #777260;
+}
+
+.form-select {
+    width: 100%;
+    height: 38px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: white;
+    border: 2px solid #96928d;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #6b6565;
+}
+
+.tallas {
+    display: flex;
+    gap: 12px;
+}
+
+.tallas p {
+    margin: 0;
+    width: 70px;
+    height: 32px;
+    border: 2px solid #96928d;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #777260;
+}
+
+.tallas p:hover {
+    background-color: #d6cd92;
+    border-color: #d6cd92;
+    color: white;
+}
+
+.tallas p:active {
+    transform: scale(0.95);
+}
+
+.opciones-destino {
+    display: flex;
+    gap: 15px;
+}
+
+.opciones-destino button {
+    width: 50%;
+    height: 45px;
+    background-color: white;
+    border: 2px solid #96928d;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #777260;
+}
+
+.opciones-destino button:hover {
+    background-color: #d6cd92;
+    border-color: #d6cd92;
+    color: white;
+}
+
+.opciones-destino button:active {
+    transform: scale(0.95);
+}
+
+.boton-enviar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #817b65;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.boton-enviar:hover {
+    background-color: #65614f;
+}
+
+.boton-enviar:active {
+    transform: scale(0.95);
+}
+
+.icono-agregar {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #dad6bf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7a745e;
+    font-size: 20px;
+    color: #7a745e;
+}
+
+.icono-agregar:hover {
+    background-color:#7a745e;
+    color: #e7e6dd;
+}
+
+.icono-agregar:active {
+    transform: scale(0.95);
 }
