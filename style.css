@@ -890,7 +890,7 @@ header {
 
 .card {
     width: 100%;
-    border: 2px solid #cdc9c2;
+    border: 1px solid #cdc9c2;
     border-radius: 30px;
     background-color: #e6e6e2;
     height: 360px;
