@@ -83,11 +83,11 @@ header {
 }
 
 .carousel-item {
-    position: relative;   /*contenedor de referencia*/
+    position: relative;   
 }
 
 .contenido-hero1 {
-    position: absolute;   /*pone el texto encima de la imagen*/
+    position: absolute;  
     top: 110px;
     left: 65px;
     color: #f9f4ef
@@ -870,5 +870,72 @@ header {
 .icono-agregar-reciclar:active {
     transform: scale(0.95);
 }
+
+/*REUTILIZAR*/
+.titulo-reutilizar {
+    background-color: #e1ddd6;
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.titulo-reutilizar h1 {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #6b6565;
+}
+
+.card {
+    width: 100%;
+    border: 2px solid #cdc9c2;
+    border-radius: 30px;
+    background-color: #e6e6e2;
+    height: 360px;
+}
+
+.card-img-top {
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 270px;
+}
+
+.contenedor-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.contenedor-card h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #6f6a56;
+    justify-content: flex-start;
+    padding-left: 12px;
+    
+}
+
+.contenedor-card a {
+    text-decoration: none;
+}
+
+.iconos-prendas {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #7a745e;
+    padding-left: 12px;
+}
+
+.iconos-prendas i:hover {
+    font-size: 20px;
+}
+
+
+
 
 
