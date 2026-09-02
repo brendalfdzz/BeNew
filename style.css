@@ -911,13 +911,12 @@ header {
     gap: 20px;
 }
 
-.contenedor-card h2 {
+.card-body h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     color: #6f6a56;
     justify-content: flex-start;
     padding-left: 12px;
-    
 }
 
 .contenedor-card a {
@@ -936,6 +935,84 @@ header {
 }
 
 
+/*IDEA*/
+.titulo-idea {
+    background-color: #e1ddd6;
+    width: 50%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
 
+.titulo-idea h1 {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #6b6565;
+}
 
+.elementos-idea {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
+.apartado-video {
+    width: 100%;
+    border: 2px solid #817b65;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.informacion-idea {
+    width: 100%;
+    border: 2px solid #817b65;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.informacion-idea {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.informacion-idea h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #6f6a56;
+    justify-content: flex-start;
+    
+}
+
+.informacion-idea p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #73726e;
+    justify-content: flex-start;
+
+}
+
+.iconos-prendas-idea {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #878681;
+}
+
+.dificultad-idea p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #93928e;
+    justify-content: flex-start;
+}
