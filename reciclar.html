@@ -11,7 +11,10 @@
         <link href="https://fonts.cdnfonts.com/css/lovelo?styles=25962" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/quicksand?styles=170041,738,741" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/julius-sans-one" rel="stylesheet">
-                
+        <link href="https://fonts.cdnfonts.com/css/raleway-5?styles=27267,27263" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/raleway-5?styles=27267" rel="stylesheet">
+           
+        
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -32,37 +35,36 @@
             </div>
         </header>
 
-        <div class="titulo-donacion">
+        <div class="titulo-reciclaje">
             <h1>RECICLA TU PRENDA</h1>
         </div>
 
-        <div class="advertencia-donacion">
-            <h5 class="titulo-condiciones">PRENDA ROTA O DESGASTADA?</h5>
-            <div class="lista-condiciones">
+        <div class="advertencia-reciclar">
+            <h5 class="titulo-condiciones-reciclar">CUANDO RECICLAR MI ROPA?</h5>
+            <div class="lista-condiciones-reciclar">
                 <ul>
                     <li>Esta rota</li>
                     <li>La tela esta muy desgastada</li>
                 </ul>
             </div>
-            <div class="alternativas-condiciones">
-                <p>Si todavia esta en buen estado, puedes optar por mejor donarla o reutilizarla.</p>
-                <div class="botones-alternativas">
+            <div class="alternativas-condiciones-reciclar">
+                <p><u>Si todavia esta en buen estado, puedes optar por mejor donarla o reutilizarla.</u></p>
+                <div class="botones-alternativas-reciclar">
                     <a href="donar.html">
-                        <button>DONAR</button>
+                        <button>Donar</button>
                     </a>
                     <a href="reutilizar.html">
-                        <button>REUTILIZAR</button>
+                        <button>Reutilizar</button>
                     </a>
                 </div>
             </div>
         </div>
 
-        <form action="" class="grupo-formulario-reciclar">
+        <form action="" class="formulario-reciclar">
             <div class="fila-form-reciclar">
                 <div class="grupo-formulario-reciclar">
-                    <h5>CUENTANOS SOBRE LA PRENDA</h5>
-                    <label for="categoria_prenda-reciclar" class="nombre-prenda-reciclar">CATEGORÍA</label>
-                    <select id="categoria_prenda-reciclar" class="form-select" required>
+                    <label for="categoria-prenda-reciclar" class="nombre-prenda-reciclar">CATEGORÍA</label>
+                    <select id="categoria-prenda-reciclar" class="form-select-reciclar" required>
                         <option value="" selected></option>
                         <option value="camisa">Camisa</option>
                         <option value="blusa">Blusa</option>
@@ -76,14 +78,15 @@
                     </select>
                 </div>
                 <div class="grupo-formulario-reciclar">
-                    <label for="categoria_material" class="material-prenda">MATERIAL</label>
-                    <select id="categoria_material" class="form-select" required>
+                    <label for="categoria_material-reciclar" class="material-prenda">MATERIAL</label>
+                    <select id="categoria_material-reciclar" class="form-select-reciclar" required>
                         <option value="" selected></option>
-                        <option value="amarillo">Amarillo</option>
-                        <option value="azul">Azul</option>
-                        <option value="verde">Verde</option>
-                        <option value="rojo">Rojo</option>
-                        
+                        <option value="algodon">Algodon</option>
+                        <option value="mezclilla">Mezclilla</option>
+                        <option value="poliester">Poliester</option>
+                        <option value="lana">Lana</option>
+                        <option value="lino">Lino</option>
+                        <option value="cuero-piel">Cuero/Piel</option>
                     </select>
                 </div>
             </div>
@@ -110,6 +113,6 @@
         <div class="icono-agregar-reciclar">
             <i class="fa-solid fa-plus"></i>
         </div>
-    
+        
     </body>
 </html>
